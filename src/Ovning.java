@@ -36,6 +36,14 @@ public class Ovning {
             System.out.println("Du bor i Svealand");
          */
 
-        // -Uppgift
+        // -Uppgift 5.2-
+        int nmr = Integer.parseInt(JOptionPane.showInputDialog("Vilket nummer?"));
+        int loop = 1;
+        float summa = 1;
+            while (loop != nmr) {
+                summa = summa + 1/summa;
+                loop = ++loop;
+                }
+            System.out.println(summa);
+            }
         }
-    }
